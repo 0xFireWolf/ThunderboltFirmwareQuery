@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D50D26A024036ADB000A5065 /* Installer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D269F24036ADB000A5065 /* Installer.swift */; };
+		D50D26A424036D03000A5065 /* DiskImageMounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D26A324036D03000A5065 /* DiskImageMounter.swift */; };
+		D50D26A6240372AF000A5065 /* ThunderboltFirmwareQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D26A5240372AF000A5065 /* ThunderboltFirmwareQuery.swift */; };
+		D50D26A824037517000A5065 /* FileManager+RandomTemporaryDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D26A724037517000A5065 /* FileManager+RandomTemporaryDirectory.swift */; };
+		D50D26AA24038700000A5065 /* ThunderboltFirmwareDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D26A924038700000A5065 /* ThunderboltFirmwareDatabase.swift */; };
+		D50D26AD24038847000A5065 /* PropertyListSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D26AB24038847000A5065 /* PropertyListSerializable.swift */; };
+		D50D26AE24038847000A5065 /* Serializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D26AC24038847000A5065 /* Serializable.swift */; };
+		D50D26B224038EC1000A5065 /* StringWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D26B024038EC1000A5065 /* StringWriter.swift */; };
+		D50D26B324038EC1000A5065 /* IndentingWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D26B124038EC1000A5065 /* IndentingWriter.swift */; };
+		D50D26B924038FD2000A5065 /* PrettyPrintable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D26B824038FD2000A5065 /* PrettyPrintable.swift */; };
+		D50D26BB2403903D000A5065 /* ThunderboltFirmwareRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50D26BA2403903D000A5065 /* ThunderboltFirmwareRecord.swift */; };
+		D5CD3F2B24035C400041E1EA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CD3F2A24035C400041E1EA /* main.swift */; };
+		D5CD3F36240361DA0041E1EA /* SystemVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CD3F35240361DA0041E1EA /* SystemVersion.swift */; };
+		D5CD3F38240364620041E1EA /* ThunderboltFirmwareConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CD3F37240364620041E1EA /* ThunderboltFirmwareConfig.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D5CD3F2524035C400041E1EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D50D269F24036ADB000A5065 /* Installer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Installer.swift; sourceTree = "<group>"; };
+		D50D26A324036D03000A5065 /* DiskImageMounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskImageMounter.swift; sourceTree = "<group>"; };
+		D50D26A5240372AF000A5065 /* ThunderboltFirmwareQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderboltFirmwareQuery.swift; sourceTree = "<group>"; };
+		D50D26A724037517000A5065 /* FileManager+RandomTemporaryDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+RandomTemporaryDirectory.swift"; sourceTree = "<group>"; };
+		D50D26A924038700000A5065 /* ThunderboltFirmwareDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderboltFirmwareDatabase.swift; sourceTree = "<group>"; };
+		D50D26AB24038847000A5065 /* PropertyListSerializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyListSerializable.swift; sourceTree = "<group>"; };
+		D50D26AC24038847000A5065 /* Serializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Serializable.swift; sourceTree = "<group>"; };
+		D50D26B024038EC1000A5065 /* StringWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringWriter.swift; sourceTree = "<group>"; };
+		D50D26B124038EC1000A5065 /* IndentingWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndentingWriter.swift; sourceTree = "<group>"; };
+		D50D26B824038FD2000A5065 /* PrettyPrintable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyPrintable.swift; sourceTree = "<group>"; };
+		D50D26BA2403903D000A5065 /* ThunderboltFirmwareRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderboltFirmwareRecord.swift; sourceTree = "<group>"; };
+		D5CD3F2724035C400041E1EA /* ThunderboltFirmwareQuery */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ThunderboltFirmwareQuery; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CD3F2A24035C400041E1EA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D5CD3F35240361DA0041E1EA /* SystemVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemVersion.swift; sourceTree = "<group>"; };
+		D5CD3F37240364620041E1EA /* ThunderboltFirmwareConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderboltFirmwareConfig.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5CD3F2424035C400041E1EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D50D26B424038EC5000A5065 /* Serializable */ = {
+			isa = PBXGroup;
+			children = (
+				D50D26AB24038847000A5065 /* PropertyListSerializable.swift */,
+				D50D26AC24038847000A5065 /* Serializable.swift */,
+			);
+			name = Serializable;
+			sourceTree = "<group>";
+		};
+		D50D26B624038ED7000A5065 /* Writer */ = {
+			isa = PBXGroup;
+			children = (
+				D50D26B124038EC1000A5065 /* IndentingWriter.swift */,
+				D50D26B824038FD2000A5065 /* PrettyPrintable.swift */,
+				D50D26B024038EC1000A5065 /* StringWriter.swift */,
+			);
+			name = Writer;
+			sourceTree = "<group>";
+		};
+		D50D26B724038F27000A5065 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D50D26A324036D03000A5065 /* DiskImageMounter.swift */,
+				D50D26A724037517000A5065 /* FileManager+RandomTemporaryDirectory.swift */,
+				D50D269F24036ADB000A5065 /* Installer.swift */,
+				D5CD3F35240361DA0041E1EA /* SystemVersion.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		D5CD3F1E24035C400041E1EA = {
+			isa = PBXGroup;
+			children = (
+				D5CD3F2924035C400041E1EA /* ThunderboltFirmwareQuery */,
+				D5CD3F2824035C400041E1EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5CD3F2824035C400041E1EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5CD3F2724035C400041E1EA /* ThunderboltFirmwareQuery */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5CD3F2924035C400041E1EA /* ThunderboltFirmwareQuery */ = {
+			isa = PBXGroup;
+			children = (
+				D50D26B724038F27000A5065 /* Helpers */,
+				D50D26B624038ED7000A5065 /* Writer */,
+				D50D26B424038EC5000A5065 /* Serializable */,
+				D5CD3F2A24035C400041E1EA /* main.swift */,
+				D50D26A5240372AF000A5065 /* ThunderboltFirmwareQuery.swift */,
+				D50D26A924038700000A5065 /* ThunderboltFirmwareDatabase.swift */,
+				D5CD3F37240364620041E1EA /* ThunderboltFirmwareConfig.swift */,
+				D50D26BA2403903D000A5065 /* ThunderboltFirmwareRecord.swift */,
+			);
+			path = ThunderboltFirmwareQuery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5CD3F2624035C400041E1EA /* ThunderboltFirmwareQuery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5CD3F2E24035C400041E1EA /* Build configuration list for PBXNativeTarget "ThunderboltFirmwareQuery" */;
+			buildPhases = (
+				D5CD3F2324035C400041E1EA /* Sources */,
+				D5CD3F2424035C400041E1EA /* Frameworks */,
+				D5CD3F2524035C400041E1EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThunderboltFirmwareQuery;
+			productName = ThunderboltFirmwareQuery;
+			productReference = D5CD3F2724035C400041E1EA /* ThunderboltFirmwareQuery */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5CD3F1F24035C400041E1EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = FireWolf;
+				TargetAttributes = {
+					D5CD3F2624035C400041E1EA = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D5CD3F2224035C400041E1EA /* Build configuration list for PBXProject "ThunderboltFirmwareQuery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5CD3F1E24035C400041E1EA;
+			productRefGroup = D5CD3F2824035C400041E1EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5CD3F2624035C400041E1EA /* ThunderboltFirmwareQuery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5CD3F2324035C400041E1EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D50D26A024036ADB000A5065 /* Installer.swift in Sources */,
+				D50D26A824037517000A5065 /* FileManager+RandomTemporaryDirectory.swift in Sources */,
+				D50D26B924038FD2000A5065 /* PrettyPrintable.swift in Sources */,
+				D5CD3F2B24035C400041E1EA /* main.swift in Sources */,
+				D50D26AD24038847000A5065 /* PropertyListSerializable.swift in Sources */,
+				D50D26AA24038700000A5065 /* ThunderboltFirmwareDatabase.swift in Sources */,
+				D50D26B324038EC1000A5065 /* IndentingWriter.swift in Sources */,
+				D50D26A424036D03000A5065 /* DiskImageMounter.swift in Sources */,
+				D50D26B224038EC1000A5065 /* StringWriter.swift in Sources */,
+				D50D26AE24038847000A5065 /* Serializable.swift in Sources */,
+				D5CD3F38240364620041E1EA /* ThunderboltFirmwareConfig.swift in Sources */,
+				D50D26BB2403903D000A5065 /* ThunderboltFirmwareRecord.swift in Sources */,
+				D5CD3F36240361DA0041E1EA /* SystemVersion.swift in Sources */,
+				D50D26A6240372AF000A5065 /* ThunderboltFirmwareQuery.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D5CD3F2C24035C400041E1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5CD3F2D24035C400041E1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D5CD3F2F24035C400041E1EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D5CD3F3024035C400041E1EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5CD3F2224035C400041E1EA /* Build configuration list for PBXProject "ThunderboltFirmwareQuery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CD3F2C24035C400041E1EA /* Debug */,
+				D5CD3F2D24035C400041E1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5CD3F2E24035C400041E1EA /* Build configuration list for PBXNativeTarget "ThunderboltFirmwareQuery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5CD3F2F24035C400041E1EA /* Debug */,
+				D5CD3F3024035C400041E1EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5CD3F1F24035C400041E1EA /* Project object */;
+}
