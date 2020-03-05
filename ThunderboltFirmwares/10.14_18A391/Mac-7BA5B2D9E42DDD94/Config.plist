@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Thunderbolt</key>
+	<array>
+		<dict>
+			<key>RID</key>
+			<integer>0</integer>
+			<key>Ridge Silicon Vendor ID</key>
+			<real>32902</real>
+			<key>Ridge Silicon Device ID</key>
+			<real>5587</real>
+			<key>Ridge Silicon Revision</key>
+			<integer>6</integer>
+			<key>Port Silicon Vendor ID</key>
+			<integer>40</integer>
+			<key>Port Silicon Device ID</key>
+			<real>826622785</real>
+			<key>Port Silicon Revision</key>
+			<integer>48</integer>
+			<key>Version</key>
+			<real>37.02</real>
+			<key>Priority</key>
+			<integer>500</integer>
+			<key>Firmware</key>
+			<string>Mac-7BA5B2D9E42DDD94-C0_6.52.0-C0_37.2-R0.bin</string>
+			<key>SetNVRAM</key>
+			<dict>
+				<key>tbt-options</key>
+				<integer>4</integer>
+			</dict>
+			<key>ClearNVRAM</key>
+			<array>
+				<string>ThorUpdateResult</string>
+			</array>
+		</dict>
+		<dict>
+			<key>RID</key>
+			<integer>1</integer>
+			<key>Ridge Silicon Vendor ID</key>
+			<real>32902</real>
+			<key>Ridge Silicon Device ID</key>
+			<real>5587</real>
+			<key>Ridge Silicon Revision</key>
+			<integer>6</integer>
+			<key>Port Silicon Vendor ID</key>
+			<integer>40</integer>
+			<key>Port Silicon Device ID</key>
+			<real>826622785</real>
+			<key>Port Silicon Revision</key>
+			<integer>48</integer>
+			<key>Version</key>
+			<real>37.02</real>
+			<key>Priority</key>
+			<integer>500</integer>
+			<key>Firmware</key>
+			<string>Mac-7BA5B2D9E42DDD94-C0_6.52.0-C0_37.2-R1.bin</string>
+			<key>SetNVRAM</key>
+			<dict>
+				<key>tbt-options</key>
+				<integer>4</integer>
+			</dict>
+			<key>ClearNVRAM</key>
+			<array>
+				<string>ThorUpdateResult</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
