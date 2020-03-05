@@ -9,6 +9,10 @@
 - Build and update the firmware database.
 - Generate a markdown document for the firmware database.
 
+## >> Builds
+Binary builds are available in the release page. macOS 10.12 or higher is required to run this tool.  
+This tool has been tested under macOS Catalina 10.15.3.  
+
 ## >> Usage
 - `ThunderboltFirmwareQuery --query <installer1> <installer2> ...`  
     Query the Thunderbolt 3 firmware information from the given installers.  
