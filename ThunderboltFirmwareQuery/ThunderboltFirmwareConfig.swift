@@ -18,7 +18,7 @@ public struct ThunderboltFirmwareConfig: PropertyListSerializable, PrettyPrintab
     /// - Parameter url: File URL to the `Config.plist` file
     public init?(config url: URL)
     {
-        guard let dict = NSDictionary.init(contentsOf: url) as? [String : Any] else
+        guard let dict = NSDictionary(contentsOf: url) as? [String : Any] else
         {
             print("Error: Failed to load the updater config from \(url.path)")
             
