@@ -52,6 +52,7 @@
 		D5CD3F35240361DA0041E1EA /* SystemVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemVersion.swift; sourceTree = "<group>"; };
 		D5CD3F37240364620041E1EA /* ThunderboltFirmwareConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThunderboltFirmwareConfig.swift; sourceTree = "<group>"; };
 		D5FA97FE24107F0D00CD2976 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		D5FA97FF241082DB00CD2976 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +124,7 @@
 				D5CD3F37240364620041E1EA /* ThunderboltFirmwareConfig.swift */,
 				D50D26BA2403903D000A5065 /* ThunderboltFirmwareRecord.swift */,
 				D5FA97FE24107F0D00CD2976 /* README.md */,
+				D5FA97FF241082DB00CD2976 /* LICENSE */,
 			);
 			path = ThunderboltFirmwareQuery;
 			sourceTree = "<group>";
