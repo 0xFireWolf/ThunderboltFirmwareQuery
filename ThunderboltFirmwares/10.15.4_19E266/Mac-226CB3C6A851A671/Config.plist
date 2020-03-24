@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Thunderbolt</key>
+	<array>
+		<dict>
+			<key>RID</key>
+			<real>0</real>
+			<key>Ridge Silicon Vendor ID</key>
+			<real>32902</real>
+			<key>Ridge Silicon Device ID</key>
+			<real>5610</real>
+			<key>Ridge Silicon Revision</key>
+			<real>6</real>
+			<key>Port Silicon Vendor ID</key>
+			<real>40</real>
+			<key>Port Silicon Device ID</key>
+			<real>826622785</real>
+			<key>Port Silicon Revision</key>
+			<real>48</real>
+			<key>Version</key>
+			<real>47.04</real>
+			<key>Ridge Firmware Version</key>
+			<real>47.04</real>
+			<key>Port Firmware Version</key>
+			<real>160000</real>
+			<key>Priority</key>
+			<real>500</real>
+			<key>Firmware</key>
+			<string>Mac-226CB3C6A851A671-C0_16.0.0-C1_47.4-R0.bin</string>
+			<key>SetNVRAM</key>
+			<dict>
+				<key>tbt-options</key>
+				<real>4</real>
+			</dict>
+			<key>ClearNVRAM</key>
+			<array>
+				<string>ThorUpdateResult</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
